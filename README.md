@@ -1,7 +1,56 @@
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=I3iG2BoWNFc?si=mfWqWljZwRNJmqdZ" target="_blank"><img src="http://img.youtube.com/vi/I3iG2BoWNFc?si=mfWqWljZwRNJmqdZ/0.jpg" 
-alt="Youtube" width="240" height="500" border="10" /></a>
+# Сделать папку репозиторием -- git init  
+# Разгитить папку -- rm -rf .git  
+# Проверить состояние репозитория -- git status  
+# Подготовить файлы к сохранению -- git add <имя файла>  
+# Выполнить коммит -- git commit -m "что изменилось"  
+# Посмотреть историю коммитов -- git log  
 
-[Youtube](https://youtu.be/I3iG2BoWNFc?si=mfWqWljZwRNJmqdZ "Linux users")
+
+# Проверка наличия SSH-ключа -- cd ~; ls -la .ssh/  
+# Генерация SSH-ключа -- ssh-keygen -t ed25519 -C "электронная почта, к которой привязан аккаунт на GitHub"  
+# Скопировать публичный ключ -- cat ~/.ssh/id_ed25519.pub | xsel -b -i  
+# Нажать пункт Settings на GitHub  
+# В меню надать на пункт SSH and GPG keys  
+# New SSH key Напишите название ключа и вставьте ключ  
+# Проверка правильности ключа ssh -T git@github.com  
+# Привязать удалённую репу к локальной -- git remote add origin git@github.com:Lenin-is-alive/first_project.git  
+# Убедиться что репозитории связаны -- git remote -v  
+# Отправить изменения на удалённый репозиторий -- git push -u origin master  
+
+
+# Markdown - язык разметки  
+
+# H1 - заголовок (количество # разные уровни)  
+
+ Под заголовком или абзацем можно поставить черту  
+
+ ---  
+
+ Разрыв строки -- два пробела или символ <br>  
+
+ Новый параграф -- два раза Enter  
+
+ Курсив -- *text*  
+ 
+ Полужирный шрифт -- **Текст**  
+
+ Зачёркнутый текст -- ~~Text~~  
+
+ Список -- нумерованный : цифра с точкой  
+ 	-- ненумерованный : звёздочка + пробел или дефис + пробел  
+
+ Ссылка -- [Yandex](https://www.yandex.ru "Title")
+
+ Код -- ```bash
+ 	ls -la
+	```
+
+	```html
+	<h1>Text</h1>
+	```
+
+
+
 
 
 # Шпаргалка markdown
