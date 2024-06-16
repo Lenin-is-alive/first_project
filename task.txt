@@ -1,3 +1,0 @@
-1.do git add
-2.do git commit -m
-3.do git push origin master
